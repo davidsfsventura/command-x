@@ -1,0 +1,887 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F59A363A2E05BF3A00BDEF50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F59A36232E05BF3900BDEF50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F59A362A2E05BF3900BDEF50;
+			remoteInfo = "Command X Free";
+		};
+		F59A36442E05BF3A00BDEF50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F59A36232E05BF3900BDEF50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F59A362A2E05BF3900BDEF50;
+			remoteInfo = "Command X Free";
+		};
+		F59A36702E05C30E00BDEF50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F59A36232E05BF3900BDEF50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F59A36612E05C30C00BDEF50;
+			remoteInfo = CommandXLauncher;
+		};
+		F59A367A2E05C30E00BDEF50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F59A36232E05BF3900BDEF50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F59A36612E05C30C00BDEF50;
+			remoteInfo = CommandXLauncher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F59A362B2E05BF3900BDEF50 /* Command X Free.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Command X Free.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59A36392E05BF3A00BDEF50 /* Command X FreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Command X FreeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59A36432E05BF3A00BDEF50 /* Command X FreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Command X FreeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59A36622E05C30C00BDEF50 /* CommandXLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommandXLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59A366F2E05C30E00BDEF50 /* CommandXLauncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommandXLauncherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59A36792E05C30E00BDEF50 /* CommandXLauncherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommandXLauncherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F59A362D2E05BF3900BDEF50 /* Command X Free */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Command X Free";
+			sourceTree = "<group>";
+		};
+		F59A363C2E05BF3A00BDEF50 /* Command X FreeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Command X FreeTests";
+			sourceTree = "<group>";
+		};
+		F59A36462E05BF3A00BDEF50 /* Command X FreeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Command X FreeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F59A36282E05BF3900BDEF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A36362E05BF3A00BDEF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A36402E05BF3A00BDEF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A365F2E05C30C00BDEF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A366C2E05C30E00BDEF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A36762E05C30E00BDEF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F59A36222E05BF3900BDEF50 = {
+			isa = PBXGroup;
+			children = (
+				F59A362D2E05BF3900BDEF50 /* Command X Free */,
+				F59A363C2E05BF3A00BDEF50 /* Command X FreeTests */,
+				F59A36462E05BF3A00BDEF50 /* Command X FreeUITests */,
+				F59A362C2E05BF3900BDEF50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F59A362C2E05BF3900BDEF50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F59A362B2E05BF3900BDEF50 /* Command X Free.app */,
+				F59A36392E05BF3A00BDEF50 /* Command X FreeTests.xctest */,
+				F59A36432E05BF3A00BDEF50 /* Command X FreeUITests.xctest */,
+				F59A36622E05C30C00BDEF50 /* CommandXLauncher.app */,
+				F59A366F2E05C30E00BDEF50 /* CommandXLauncherTests.xctest */,
+				F59A36792E05C30E00BDEF50 /* CommandXLauncherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F59A362A2E05BF3900BDEF50 /* Command X Free */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59A364D2E05BF3A00BDEF50 /* Build configuration list for PBXNativeTarget "Command X Free" */;
+			buildPhases = (
+				F59A36272E05BF3900BDEF50 /* Sources */,
+				F59A36282E05BF3900BDEF50 /* Frameworks */,
+				F59A36292E05BF3900BDEF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F59A362D2E05BF3900BDEF50 /* Command X Free */,
+			);
+			name = "Command X Free";
+			packageProductDependencies = (
+			);
+			productName = "Command X Free";
+			productReference = F59A362B2E05BF3900BDEF50 /* Command X Free.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F59A36382E05BF3A00BDEF50 /* Command X FreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59A36502E05BF3A00BDEF50 /* Build configuration list for PBXNativeTarget "Command X FreeTests" */;
+			buildPhases = (
+				F59A36352E05BF3A00BDEF50 /* Sources */,
+				F59A36362E05BF3A00BDEF50 /* Frameworks */,
+				F59A36372E05BF3A00BDEF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F59A363B2E05BF3A00BDEF50 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F59A363C2E05BF3A00BDEF50 /* Command X FreeTests */,
+			);
+			name = "Command X FreeTests";
+			packageProductDependencies = (
+			);
+			productName = "Command X FreeTests";
+			productReference = F59A36392E05BF3A00BDEF50 /* Command X FreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F59A36422E05BF3A00BDEF50 /* Command X FreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59A36532E05BF3A00BDEF50 /* Build configuration list for PBXNativeTarget "Command X FreeUITests" */;
+			buildPhases = (
+				F59A363F2E05BF3A00BDEF50 /* Sources */,
+				F59A36402E05BF3A00BDEF50 /* Frameworks */,
+				F59A36412E05BF3A00BDEF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F59A36452E05BF3A00BDEF50 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F59A36462E05BF3A00BDEF50 /* Command X FreeUITests */,
+			);
+			name = "Command X FreeUITests";
+			packageProductDependencies = (
+			);
+			productName = "Command X FreeUITests";
+			productReference = F59A36432E05BF3A00BDEF50 /* Command X FreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F59A36612E05C30C00BDEF50 /* CommandXLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59A36812E05C30E00BDEF50 /* Build configuration list for PBXNativeTarget "CommandXLauncher" */;
+			buildPhases = (
+				F59A365E2E05C30C00BDEF50 /* Sources */,
+				F59A365F2E05C30C00BDEF50 /* Frameworks */,
+				F59A36602E05C30C00BDEF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommandXLauncher;
+			packageProductDependencies = (
+			);
+			productName = CommandXLauncher;
+			productReference = F59A36622E05C30C00BDEF50 /* CommandXLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F59A366E2E05C30E00BDEF50 /* CommandXLauncherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59A36842E05C30E00BDEF50 /* Build configuration list for PBXNativeTarget "CommandXLauncherTests" */;
+			buildPhases = (
+				F59A366B2E05C30E00BDEF50 /* Sources */,
+				F59A366C2E05C30E00BDEF50 /* Frameworks */,
+				F59A366D2E05C30E00BDEF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F59A36712E05C30E00BDEF50 /* PBXTargetDependency */,
+			);
+			name = CommandXLauncherTests;
+			packageProductDependencies = (
+			);
+			productName = CommandXLauncherTests;
+			productReference = F59A366F2E05C30E00BDEF50 /* CommandXLauncherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F59A36782E05C30E00BDEF50 /* CommandXLauncherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59A36872E05C30E00BDEF50 /* Build configuration list for PBXNativeTarget "CommandXLauncherUITests" */;
+			buildPhases = (
+				F59A36752E05C30E00BDEF50 /* Sources */,
+				F59A36762E05C30E00BDEF50 /* Frameworks */,
+				F59A36772E05C30E00BDEF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F59A367B2E05C30E00BDEF50 /* PBXTargetDependency */,
+			);
+			name = CommandXLauncherUITests;
+			packageProductDependencies = (
+			);
+			productName = CommandXLauncherUITests;
+			productReference = F59A36792E05C30E00BDEF50 /* CommandXLauncherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F59A36232E05BF3900BDEF50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					F59A362A2E05BF3900BDEF50 = {
+						CreatedOnToolsVersion = 16.3;
+						LastSwiftMigration = 1630;
+					};
+					F59A36382E05BF3A00BDEF50 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = F59A362A2E05BF3900BDEF50;
+					};
+					F59A36422E05BF3A00BDEF50 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = F59A362A2E05BF3900BDEF50;
+					};
+					F59A36612E05C30C00BDEF50 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					F59A366E2E05C30E00BDEF50 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = F59A36612E05C30C00BDEF50;
+					};
+					F59A36782E05C30E00BDEF50 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = F59A36612E05C30C00BDEF50;
+					};
+				};
+			};
+			buildConfigurationList = F59A36262E05BF3900BDEF50 /* Build configuration list for PBXProject "Command X Free" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F59A36222E05BF3900BDEF50;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F59A362C2E05BF3900BDEF50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F59A362A2E05BF3900BDEF50 /* Command X Free */,
+				F59A36382E05BF3A00BDEF50 /* Command X FreeTests */,
+				F59A36422E05BF3A00BDEF50 /* Command X FreeUITests */,
+				F59A36612E05C30C00BDEF50 /* CommandXLauncher */,
+				F59A366E2E05C30E00BDEF50 /* CommandXLauncherTests */,
+				F59A36782E05C30E00BDEF50 /* CommandXLauncherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F59A36292E05BF3900BDEF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A36372E05BF3A00BDEF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A36412E05BF3A00BDEF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A36602E05C30C00BDEF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A366D2E05C30E00BDEF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A36772E05C30E00BDEF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F59A36272E05BF3900BDEF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A36352E05BF3A00BDEF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A363F2E05BF3A00BDEF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A365E2E05C30C00BDEF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A366B2E05C30E00BDEF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59A36752E05C30E00BDEF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F59A363B2E05BF3A00BDEF50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F59A362A2E05BF3900BDEF50 /* Command X Free */;
+			targetProxy = F59A363A2E05BF3A00BDEF50 /* PBXContainerItemProxy */;
+		};
+		F59A36452E05BF3A00BDEF50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F59A362A2E05BF3900BDEF50 /* Command X Free */;
+			targetProxy = F59A36442E05BF3A00BDEF50 /* PBXContainerItemProxy */;
+		};
+		F59A36712E05C30E00BDEF50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F59A36612E05C30C00BDEF50 /* CommandXLauncher */;
+			targetProxy = F59A36702E05C30E00BDEF50 /* PBXContainerItemProxy */;
+		};
+		F59A367B2E05C30E00BDEF50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F59A36612E05C30C00BDEF50 /* CommandXLauncher */;
+			targetProxy = F59A367A2E05C30E00BDEF50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F59A364B2E05BF3A00BDEF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = GJ86JBB5AK;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F59A364C2E05BF3A00BDEF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GJ86JBB5AK;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F59A364E2E05BF3A00BDEF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Command X Free/Command_X_Free.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJ86JBB5AK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Command-X-Free-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidventura.command-x.Command-X-Free";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F59A364F2E05BF3A00BDEF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Command X Free/Command_X_Free.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJ86JBB5AK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Command-X-Free-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidventura.command-x.Command-X-Free";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F59A36512E05BF3A00BDEF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJ86JBB5AK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidventura.command-x.Command-X-FreeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Command X Free.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Command X Free";
+			};
+			name = Debug;
+		};
+		F59A36522E05BF3A00BDEF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJ86JBB5AK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidventura.command-x.Command-X-FreeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Command X Free.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Command X Free";
+			};
+			name = Release;
+		};
+		F59A36542E05BF3A00BDEF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJ86JBB5AK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidventura.command-x.Command-X-FreeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Command X Free";
+			};
+			name = Debug;
+		};
+		F59A36552E05BF3A00BDEF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJ86JBB5AK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidventura.command-x.Command-X-FreeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Command X Free";
+			};
+			name = Release;
+		};
+		F59A36822E05C30E00BDEF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CommandXLauncher/CommandXLauncher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJ86JBB5AK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidventura.command-x-launcher.CommandXLauncher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F59A36832E05C30E00BDEF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CommandXLauncher/CommandXLauncher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJ86JBB5AK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidventura.command-x-launcher.CommandXLauncher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F59A36852E05C30E00BDEF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJ86JBB5AK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidventura.command-x-launcher.CommandXLauncherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CommandXLauncher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CommandXLauncher";
+			};
+			name = Debug;
+		};
+		F59A36862E05C30E00BDEF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJ86JBB5AK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidventura.command-x-launcher.CommandXLauncherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CommandXLauncher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CommandXLauncher";
+			};
+			name = Release;
+		};
+		F59A36882E05C30E00BDEF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJ86JBB5AK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidventura.command-x-launcher.CommandXLauncherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CommandXLauncher;
+			};
+			name = Debug;
+		};
+		F59A36892E05C30E00BDEF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJ86JBB5AK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidventura.command-x-launcher.CommandXLauncherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CommandXLauncher;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F59A36262E05BF3900BDEF50 /* Build configuration list for PBXProject "Command X Free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59A364B2E05BF3A00BDEF50 /* Debug */,
+				F59A364C2E05BF3A00BDEF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59A364D2E05BF3A00BDEF50 /* Build configuration list for PBXNativeTarget "Command X Free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59A364E2E05BF3A00BDEF50 /* Debug */,
+				F59A364F2E05BF3A00BDEF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59A36502E05BF3A00BDEF50 /* Build configuration list for PBXNativeTarget "Command X FreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59A36512E05BF3A00BDEF50 /* Debug */,
+				F59A36522E05BF3A00BDEF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59A36532E05BF3A00BDEF50 /* Build configuration list for PBXNativeTarget "Command X FreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59A36542E05BF3A00BDEF50 /* Debug */,
+				F59A36552E05BF3A00BDEF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59A36812E05C30E00BDEF50 /* Build configuration list for PBXNativeTarget "CommandXLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59A36822E05C30E00BDEF50 /* Debug */,
+				F59A36832E05C30E00BDEF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59A36842E05C30E00BDEF50 /* Build configuration list for PBXNativeTarget "CommandXLauncherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59A36852E05C30E00BDEF50 /* Debug */,
+				F59A36862E05C30E00BDEF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59A36872E05C30E00BDEF50 /* Build configuration list for PBXNativeTarget "CommandXLauncherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59A36882E05C30E00BDEF50 /* Debug */,
+				F59A36892E05C30E00BDEF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F59A36232E05BF3900BDEF50 /* Project object */;
+}
