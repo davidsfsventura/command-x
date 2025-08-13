@@ -101,7 +101,18 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusItem.menu = menu
         
         // Load saved preference
-        isMenuBarVisible = UserDefaults.standard.object(forKey: "MenuBarVisible") as? Bool ?? true
+        // Debug: Print the actual bundle identifier being used
+        if let bundleId = Bundle.main.bundleIdentifier {
+            print("App Bundle ID: \(bundleId)")
+        }
+        
+        if UserDefaults.standard.object(forKey: "MenuBarVisible") != nil {
+            isMenuBarVisible = UserDefaults.standard.bool(forKey: "MenuBarVisible")
+            print("Loaded MenuBarVisible from UserDefaults: \(isMenuBarVisible)")
+        } else {
+            isMenuBarVisible = true // Default to visible if no preference exists
+            print("No MenuBarVisible preference found, defaulting to true")
+        }
         updateMenuBarVisibility()
     }
 
@@ -123,7 +134,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         1. Keyboard Shortcut: Press Cmd+Shift+X from anywhere
         2. Terminal Command: 
-           defaults write com.yourname.CommandXFree MenuBarVisible -bool true
+           defaults write com.davidventura.command-x.Command-X-Free MenuBarVisible -bool true
            Then restart the app
         
         The keyboard shortcut works globally, even when the icon is hidden!
