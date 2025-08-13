@@ -14,6 +14,16 @@ func keyEventCallback(proxy: CGEventTapProxy, type: CGEventType, event: CGEvent,
     let flags = event.flags
     let keyCode = event.getIntegerValueField(.keyboardEventKeycode)
 
+    // Global shortcut: Cmd + Shift + X = Toggle menu bar visibility
+    if flags.contains([.maskCommand, .maskShift]) && keyCode == 7 { // 'X' key code = 7
+        if let appDelegate = NSApplication.shared.delegate as? AppDelegate {
+            DispatchQueue.main.async {
+                appDelegate.toggleMenuBarVisibility()
+            }
+        }
+        return nil
+    }
+
     guard let frontApp = NSWorkspace.shared.frontmostApplication,
           frontApp.bundleIdentifier == "com.apple.finder" else {
         return Unmanaged.passUnretained(event)
@@ -53,6 +63,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var statusItem: NSStatusItem!
     var eventTap: CFMachPort?
     var runLoopSource: CFRunLoopSource?
+    var isMenuBarVisible: Bool = true
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         requestAccessibilityPermission()
@@ -83,10 +94,44 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             button.image = NSImage(systemSymbolName: "scissors", accessibilityDescription: "CutX")
         }
         let menu = NSMenu()
+        menu.addItem(NSMenuItem(title: "Hide Menu Bar Icon", action: #selector(toggleMenuBarVisibility), keyEquivalent: ""))
+        menu.addItem(NSMenuItem(title: "How to Show Icon Again", action: #selector(showRestoreInstructions), keyEquivalent: ""))
+        menu.addItem(NSMenuItem.separator())
         menu.addItem(NSMenuItem(title: "Quit", action: #selector(quitApp), keyEquivalent: "q"))
         statusItem.menu = menu
+        
+        // Load saved preference
+        isMenuBarVisible = UserDefaults.standard.object(forKey: "MenuBarVisible") as? Bool ?? true
+        updateMenuBarVisibility()
     }
 
+    @objc func toggleMenuBarVisibility() {
+        isMenuBarVisible.toggle()
+        UserDefaults.standard.set(isMenuBarVisible, forKey: "MenuBarVisible")
+        updateMenuBarVisibility()
+    }
+    
+    func updateMenuBarVisibility() {
+        statusItem.isVisible = isMenuBarVisible
+    }
+    
+    @objc func showRestoreInstructions() {
+        let alert = NSAlert()
+        alert.messageText = "How to Show Menu Bar Icon Again"
+        alert.informativeText = """
+        If you hide the menu bar icon, you can restore it using either of these methods:
+        
+        1. Keyboard Shortcut: Press Cmd+Shift+X from anywhere
+        2. Terminal Command: 
+           defaults write com.yourname.CommandXFree MenuBarVisible -bool true
+           Then restart the app
+        
+        The keyboard shortcut works globally, even when the icon is hidden!
+        """
+        alert.addButton(withTitle: "OK")
+        alert.runModal()
+    }
+    
     @objc func quitApp() {
         if let eventTap = eventTap {
             CFMachPortInvalidate(eventTap)
