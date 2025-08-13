@@ -45,11 +45,3 @@ The only similar app on the Mac App Store costs $4, but file management should b
 
 - macOS 10.15 or later
 - Accessibility permissions (required for keyboard monitoring)
-
-## Contributing
-
-This is a free, open-source project. Feel free to contribute improvements, report bugs, or suggest features!
-
-## License
-
-Free to use and distribute. Built with ❤️ for the macOS community.
