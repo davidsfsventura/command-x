@@ -33,12 +33,18 @@ func keyEventCallback(proxy: CGEventTapProxy, type: CGEventType, event: CGEvent,
     if flags.contains(.maskCommand) && keyCode == 7 { // 'X' key code = 7
         hasCut = true
         sendKeyCombo(key: 8, flags: .maskCommand) // Cmd + C
+        DispatchQueue.main.async {
+            (NSApplication.shared.delegate as? AppDelegate)?.updateCutStateIcon(isCut: true)
+        }
         return nil
     }
     // Cmd + V = Paste
     else if flags.contains(.maskCommand) && keyCode == 9 && hasCut { // 'V' key code = 9
         sendKeyCombo(key: 9, flags: [.maskCommand, .maskAlternate]) // Option + Cmd + V
         hasCut = false
+        DispatchQueue.main.async {
+            (NSApplication.shared.delegate as? AppDelegate)?.updateCutStateIcon(isCut: false)
+        }
         return nil
     }
 
@@ -124,6 +130,34 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     func updateMenuBarVisibility() {
         statusItem.isVisible = isMenuBarVisible
+    }
+
+    func updateCutStateIcon(isCut: Bool) {
+        guard let button = statusItem.button else { return }
+        if isCut {
+            statusItem.isVisible = true
+            button.image = tintedImage(
+                NSImage(systemSymbolName: "scissors", accessibilityDescription: "CutX - Pending paste"),
+                color: .systemOrange
+            )
+        } else {
+            button.image = NSImage(systemSymbolName: "scissors", accessibilityDescription: "CutX")
+            statusItem.isVisible = isMenuBarVisible
+        }
+    }
+
+    private func tintedImage(_ image: NSImage?, color: NSColor) -> NSImage? {
+        let config = NSImage.SymbolConfiguration(pointSize: 16, weight: .regular)
+        guard let base = image?.withSymbolConfiguration(config) else { return image }
+        let size = base.size
+        let result = NSImage(size: size)
+        result.lockFocus()
+        base.draw(in: NSRect(origin: .zero, size: size))
+        color.setFill()
+        NSRect(origin: .zero, size: size).fill(using: .sourceAtop)
+        result.unlockFocus()
+        result.isTemplate = false
+        return result
     }
     
     @objc func showRestoreInstructions() {
