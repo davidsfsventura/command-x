@@ -33,13 +33,9 @@ The only similar app on the Mac App Store costs $4, but file management should b
 3. Navigate to destination folder
 4. Press `Cmd+V` to paste/move the files
 
-## Version 2.0 Features
+## Version 3.0 Features
 
-- **Hide Menu Bar Icon**: Right-click the menu bar icon and select "Hide Menu Bar Icon"
-- **Multiple Restore Options**:
-  - Press `Cmd+Shift+X` from anywhere to show the icon again
-  - Use Terminal command if needed (instructions provided in-app)
-- **Persistent Settings**: Your visibility preference is remembered between app restarts
+- **Active Cut Indicator**: The menu bar icon will appear temporarily in an orange color to indicate an active cut, it will go away after you finish the cut, so after the cmd v to paste.
 
 ## Requirements
 
